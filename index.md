@@ -10,6 +10,6 @@ Past work experience:
 [View my projects on GitHub](https://github.com/aweinb3)
 
 ### Featured Projects
-- [E-commerce Sales Analysis - SQL, Python](./projects/)
+- [E-commerce Sales Analysis - SQL, Python](./projects/ecommerce-analysis)
 - Urban Mobility Demand Analysis - SQL, Python
 - Music Streaming Insights - Python
