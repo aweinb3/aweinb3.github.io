@@ -10,5 +10,6 @@ Data & analytics professional focused on marketing and strategy
 
 ### Featured Projects
 - [E-commerce Case Study - SQL, Python](./projects/ecommerce-analysis)
+- [link](https://github.com/aweinb3/aweinb3.github.io/tree/main/projects/ecommerce-analysis)
 - Urban Mobility Demand Analysis - SQL, Python
 - Music Streaming Insights - Python
