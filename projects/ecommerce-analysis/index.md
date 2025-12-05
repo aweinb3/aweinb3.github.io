@@ -1,8 +1,8 @@
 # E-commerce Sales Analysis and Customer Segmentation
 
 **Tools:** SQL (PostgreSQL), Python (Pandas)  
-**Dataset Size:** ~2,000 transactions over 24 month period
-**Datasource:** link[https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv]
+**Dataset Size:** ~2,000 transactions over 24 month period  
+**Datasource:** [link to datasource](https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv)
 
 
 ### Exploartory Analysis
