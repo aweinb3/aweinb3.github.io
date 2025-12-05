@@ -5,6 +5,8 @@
 **Datasource:** [link to datasource](https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv)
 
 
+
+
 ### Exploartory Analysis
 
 **Customer demographics**
@@ -12,6 +14,7 @@ Total dataset
 - 155 unique customer_ids
 - 1987 unique orders
 - Avg profit of $212 per order
+[view database setup](.00_db_setup)
 
 **Gender behaviour**
 - Females make slightly more orders (51% of tot)
@@ -42,16 +45,12 @@ Total dataset
     - Average of 3 orders per day and $654 in profit
     - 27 days in the dataset have a negative profit
     - Most profitable day recorded was Wednesday November 22, 2023 with $4,629 - 7 times more than average
-    - Only 3 of the 15 most profitable days are also in the 15 highest volume days.
-    
+    - Only 3 of the 15 most profitable days are also in the 15 highest volume days.  
 
-**Categories**
-- asfas
-
-**Customer Segmentation**
+**Customer Segmentation**  
 We found that customers are pretty evenly split between top and bottom performers. Next step is further segmentation to create targeted campaigns.
 
-Examples:
+Examples:  
 - **Past big spenders =** high M, low R
     - “We miss you” campaign to bring them back on board. Offer discount code and try to ask why they stopped purchasing.
 - **Frequent but small purchasers** = high F, low M
