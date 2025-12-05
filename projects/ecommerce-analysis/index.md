@@ -13,8 +13,8 @@
 Total dataset
 - 155 unique customer_ids
 - 1987 unique orders
-- Avg profit of $212 per order
-[view database setup](.00_db_setup)
+- Avg profit of $212 per order  
+[view database setup](.00_creating_db.sql)
 
 **Gender behaviour**
 - Females make slightly more orders (51% of tot)
