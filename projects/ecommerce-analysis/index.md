@@ -18,21 +18,23 @@
 
 ## 4. Executive Insights  
 
-## 5. Customer Insights  
+## 5. Exploratory Analysis
+
+### 5.1 Customer Insights  
 demographics, age-based profitability, gender patterns  
 
-## 6. Time Trends  
+### 5.2 Time Trends  
 seasonal patterns, hourly behaviour, day-level patterns  
 
-## 7. Category Performance  
+### 5.3 Category Performance  
 profit & Margin by category, negative-profit days  
 
-## 8. RFM Segmentation  
+## 6. RFM Segmentation  
 scoring method, segment results, customer personas  
 
-## 9. Recomendations  
+## 7. Recomendations  
 
-## 10. SQL & Notebook References  
+## 8. SQL & Notebook References  
 
-## Next Steps
+## 9. Next Steps
 
