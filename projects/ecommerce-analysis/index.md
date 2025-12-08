@@ -48,11 +48,11 @@
 - Q1 is the quietest month with just 15% of oreders and 18% of profits.
 - Q2 has the highest avg profit at $279 per order, 67% higher than Q4.
 
-| Q1 | Q2 | Q3 | Q4 |
-|---|---|---|---|
-|pct_orders | 15% | 16% | 26% | 43%|
-|pct_profit | 15% | 16% | 26% | 43%|
-|avg_profit | 15% | 16% | 26% | 43%|
+| | Q1 | Q2 | Q3 | Q4 |
+|---|---|---|---|---|
+|pct_orders |15%|16%|26%|43%|
+|pct_profit |18%|21%|27%|34%|
+|avg_profit |$253|$279|$222|$167|
 
 
 **Daily**
