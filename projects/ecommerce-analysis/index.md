@@ -2,7 +2,7 @@
 
 ## 1. Project Overview  
 
-## 2. Methadology
+## 2. Methodology
 - PG Admin & PostgreSQL for database creation and hosting
 - PostgreSQL for exploratory analysis
 - Pandas for RFM analysis
