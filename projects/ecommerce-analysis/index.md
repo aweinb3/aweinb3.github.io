@@ -46,14 +46,14 @@
 -   October had very similar unit sales (290 vs 297), but December was 20k more profitable. Could be worth looking into transaction data to see why the difference is so significant.
 - Q1 is the quietest month with just 15% of oreders and 18% of profits.
 - Q2 has the highest avg profit at $279 per order, 67% higher than Q4.
-
-| | Q1 | Q2 | Q3 | Q4 |
-|---|---|---|---|---|
-|pct_orders |15%|16%|26%|43%|
-|pct_profit |18%|21%|27%|34%|
-|avg_profit |$253|$279|$222|$167|
-
-
+  
+|Quarter|% of Orders|% of Profit|Avg Profit|
+|---|---|---|---|
+|Q1|15%|18%|$253|
+|Q2|16%|21%|$279|
+|Q3|26%|27%|$222|
+|Q4|43%|34%|$167|
+  
 **Daily**
 - Weekend sees more orders per day on average, with 13.5% more orders placed on Saturdays and Sundays.
 - Weekdays have slightly higher profits by a small margin, earning $13 more than weekend spending.
@@ -62,14 +62,65 @@
 - Only 3 of the 15 most profitable days are also in the 15 highest volume days.
   
 **Hourly**
-- 
-- 
-
+- Over half of all orders are placed between 5-9pm
+- Only 23% are placed during the workday (9a-5p)
+- Despite this, average profit is much higher earlier in the day.
+- Highest average profit is at 2pm ($338)
+  
 ### 5.3 Category Performance  
-profit & Margin by category, negative-profit days  
-
+**Categories**
+|Category|Orders|Revenue|Profit|Avg Margin|
+|---|---|---|---|---|
+|Clothing|698|$310.0k|$143.2k|46.2%|
+|Electronics|678|$311.4k|$140.7k|45.2%|
+|Beauty|611|$286.8k|$137.4k|47.9%|
+  
+- Store profits and sales are well ditributed across categories.
+- Margins pretty similar, but beauty products come slightly higher.
+- Electronics have highest revenue (total and by unit), but high ticket items don't translate to highest margins.
+- Pricing structure is identical across categories
+-   All three categories share the same price points: $25, $30, $50, $300, $500
+-   Implies profit differences must come from variations in COGS, purchase patterns, and promotions vs exclusively price of itmes.
+  
+**Costs**
+- There were 27 days (3.7% of total) with a net negative profit.
+- This is something to review more heavily, and a big operational signal.
+-   Days cluster in October and November, likely tying to seasonal promoations, perhaps selling a significant amount of cost leaders to get people onto the website.
+-   Margins also compress significantly during this time period.
+  
 ## 6. RFM Segmentation  
 scoring method, segment results, customer personas  
+
+**Scoring Method**
+- Each customer was asigned a score from 1-5 for each of *Recency (R)*, *Frequency (F)*, and *Monetary (M)*.
+-   Recency (40%): Days since last purchase.
+-   Frquency (30%): Number of purchases in the last 90 days.
+-   Monetary (30%): Total spend in last 90 days.
+- Weighted scores slightly emphasize recent purchases, signifying a lack of recent activities is the strongest sign of customer dropoff.
+- Customers with 0 purchases in last 90 days were dropped from this part of the analysis.
+
+**Segmentation Results**
+Based on weighted RFM scores:
+|Segment|Count|Description|
+|---|---|---|
+|Best|27|Highly engaged and high spending customers|
+|Good|34|Good customers with strong behviour in at least two categories|
+|Okay|46|Moderate/inconsistent customers|
+|At risk|27|Low in at least two categories but still active in last 90 days. Highest churn risk.|
+
+**Customer Personas**
+1. Past big spenders (High M, Low R)
+2.   Previously high-value but recently disengaged
+3.   **Action:** "We miss you" retention campaigns, personalized outreach
+4. Frequent but low spending (High F, Low M)
+5.   Loyal but low value transactions
+6.   **Action:** Work on upselling, product recomendation, bundle offers
+7. New or infrequent (High R, Low F)
+8.   Recently acquired, not yet loyal
+9.   **Action:** Welcome journeys, low friction offers (free shipping/returns)
+
+
+
 
 ## 7. Recomendations  
 
