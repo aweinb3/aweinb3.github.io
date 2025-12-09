@@ -41,9 +41,9 @@
 ### 5.2 Temporal Patterns   
 **Seasonal**
 - As expected, accross both years Q4 makes up 34% of annual profits and 43% of sales, likely due to increased holiday spending on electronics, beauty, and clothing categories.
--   However the lowest avg profit is also Q4, likely due to end of year sales (boxing day, black friday) lowering margins.
--   The month of December had the most unit sales, and alone contributed 14% of total profit.
--   October had very similar unit sales (290 vs 297), but December was 20k more profitable. Could be worth looking into transaction data to see why the difference is so significant.
+  - However the lowest avg profit is also Q4, likely due to end of year sales (boxing day, black friday) lowering margins.
+  - The month of December had the most unit sales, and alone contributed 14% of total profit.
+  - October had very similar unit sales (290 vs 297), but December was 20k more profitable. Could be worth looking into transaction data to see why the difference is so significant.
 - Q1 is the quietest month with just 15% of oreders and 18% of profits.
 - Q2 has the highest avg profit at $279 per order, 67% higher than Q4.
   
@@ -79,23 +79,23 @@
 - Margins pretty similar, but beauty products come slightly higher.
 - Electronics have highest revenue (total and by unit), but high ticket items don't translate to highest margins.
 - Pricing structure is identical across categories
--   All three categories share the same price points: $25, $30, $50, $300, $500
--   Implies profit differences must come from variations in COGS, purchase patterns, and promotions vs exclusively price of itmes.
+  - All three categories share the same price points: $25, $30, $50, $300, $500
+  - Implies profit differences must come from variations in COGS, purchase patterns, and promotions vs exclusively price of itmes.
   
 **Costs**
 - There were 27 days (3.7% of total) with a net negative profit.
 - This is something to review more heavily, and a big operational signal.
--   Days cluster in October and November, likely tying to seasonal promoations, perhaps selling a significant amount of cost leaders to get people onto the website.
--   Margins also compress significantly during this time period.
+  - Days cluster in October and November, likely tying to seasonal promoations, perhaps selling a significant amount of cost leaders to get people onto the website.
+  - Margins also compress significantly during this time period.
   
 ## 6. RFM Segmentation  
 scoring method, segment results, customer personas  
 
 **Scoring Method**
 - Each customer was asigned a score from 1-5 for each of *Recency (R)*, *Frequency (F)*, and *Monetary (M)*.
--   Recency (40%): Days since last purchase.
--   Frquency (30%): Number of purchases in the last 90 days.
--   Monetary (30%): Total spend in last 90 days.
+  - Recency (40%): Days since last purchase.
+  - Frquency (30%): Number of purchases in the last 90 days.
+  - Monetary (30%): Total spend in last 90 days.
 - Weighted scores slightly emphasize recent purchases, signifying a lack of recent activities is the strongest sign of customer dropoff.
 - Customers with 0 purchases in last 90 days were dropped from this part of the analysis.
 
@@ -109,15 +109,15 @@ Based on weighted RFM scores:
 |At risk|27|Low in at least two categories but still active in last 90 days. Highest churn risk.|
 
 **Customer Personas**
-1. Past big spenders (High M, Low R)
-2.   Previously high-value but recently disengaged
-3.   **Action:** "We miss you" retention campaigns, personalized outreach
-4. Frequent but low spending (High F, Low M)
-5.   Loyal but low value transactions
-6.   **Action:** Work on upselling, product recomendation, bundle offers
-7. New or infrequent (High R, Low F)
-8.   Recently acquired, not yet loyal
-9.   **Action:** Welcome journeys, low friction offers (free shipping/returns)
+- Past big spenders (High M, Low R)
+  - Previously high-value but recently disengaged
+  - **Action:** "We miss you" retention campaigns, personalized outreach
+- Frequent but low spending (High F, Low M)
+  - Loyal but low value transactions
+  - **Action:** Work on upselling, product recomendation, bundle offers
+- New or infrequent (High R, Low F)
+  - Recently acquired, not yet loyal
+  - **Action:** Welcome journeys, low friction offers (free shipping/returns)
 
 
 
