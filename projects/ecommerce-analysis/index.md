@@ -11,7 +11,7 @@
 **Assumptions**
 - Customer IDs are likely tied to orders from a specific address or area. Each contains multiple ages, genders, etc.
 - COGS not specified as per unit or per order, assumed per unit as margins are unreasonably high if not.
-- 0 orders between midnight and 6am across the whole dataset, likely a 
+- 0 orders between midnight and 6am across the entire dataset, likely a capture error.
 
 ## 3. Dataset Snapshot  
 - 1,987 unique orders
