@@ -27,16 +27,15 @@
 
 ### 5.1 Customer Insights  
 **Age Groups**
-- Most orders come from individuals in their **40s**, making up 22% of total.
-- Customers in their **50s** contribute the most to profit, making up 22% of total profit.
-- **60s** were the least profitable by far, only contributing $150 per order.
+- Most orders come from individuals in their 40s, making up 22% of total.
+- Customers in their 50s contribute the most to profit, making up 22% of total profit.
+- 60s were the least profitable by far, only contributing $150 per order.
 -   This is 26% lower than the second least profitable segment (40s, avg of $203 per order)
 -   45% less than the most profitable segment (teens, avg of $271 per order)
 
 **Gender Split**
 - Females make slightly more orders (51% of tot)
-- However men are more profitable, contributing a 53% of profit despite 49% of purchases.
-- Men on average are $35 more profitable per order ($195 vs $230).
+- However men are $35 more profitable per order ($195 vs $230), and thus contribute 53% of profit, despite making 49% of purchases.
   
   
 ### 5.2 Temporal Patterns   
