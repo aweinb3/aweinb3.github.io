@@ -90,8 +90,7 @@
   - Margins also compress significantly during this time period.
   
 ## 6. RFM Segmentation  
-scoring method, segment results, customer personas  
-
+  
 **Scoring Method**
 - Each customer was asigned a score from 1-5 for each of *Recency (R)*, *Frequency (F)*, and *Monetary (M)*.
   - Recency (40%): Days since last purchase.
@@ -99,7 +98,7 @@ scoring method, segment results, customer personas
   - Monetary (30%): Total spend in last 90 days.
 - Weighted scores slightly emphasize recent purchases, signifying a lack of recent activities is the strongest sign of customer dropoff.
 - Customers with 0 purchases in last 90 days were dropped from this part of the analysis.
-
+  
 **Segmentation Results**
 Based on weighted RFM scores:
   
@@ -120,13 +119,16 @@ Based on weighted RFM scores:
 - New or infrequent (High R, Low F)
   - Recently acquired, not yet loyal
   - **Action:** Welcome journeys, low friction offers (free shipping/returns)
-
-
-
-
+  
 ## 7. Recomendations  
 
-## 8. SQL & Notebook References  
+## 8. File References  
+- [Database Setup](./00_creating_db.sql)
+- [Overview & Demographics](./10_data_overview_and_demographics.sql)
+- [Temporal Analysis](./20_time_series_analysis.sql)
+- [Cost & Category Trends](./30_costs_and_category_trends.sql)
+- [RFM Analysis](./50_RFM.ipynb)
+- [Data Exports](./40_exports_for_rfm_and_charts.sql)
 
 ## 9. Next Steps
 
