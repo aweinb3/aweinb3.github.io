@@ -69,6 +69,7 @@
   
 ### 5.3 Category Performance  
 **Categories**
+  
 |Category|Orders|Revenue|Profit|Avg Margin|
 |---|---|---|---|---|
 |Clothing|698|$310.0k|$143.2k|46.2%|
@@ -101,13 +102,14 @@ scoring method, segment results, customer personas
 
 **Segmentation Results**
 Based on weighted RFM scores:
+  
 |Segment|Count|Description|
 |---|---|---|
 |Best|27|Highly engaged and high spending customers|
 |Good|34|Good customers with strong behviour in at least two categories|
 |Okay|46|Moderate/inconsistent customers|
 |At risk|27|Low in at least two categories but still active in last 90 days. Highest churn risk.|
-
+  
 **Customer Personas**
 - Past big spenders (High M, Low R)
   - Previously high-value but recently disengaged
