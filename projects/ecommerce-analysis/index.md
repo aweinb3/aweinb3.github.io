@@ -99,15 +99,9 @@ Based on weighted RFM scores:
 |At risk|27|Low in at least two categories but still active in last 90 days. Highest churn risk.|
   
 **Customer Personas**
-- Past big spenders (High M, Low R)
-  - Previously high-value but recently disengaged
-  - **Action:** "We miss you" retention campaigns, personalized outreach
-- Frequent but low spending (High F, Low M)
-  - Loyal but low value transactions
-  - **Action:** Work on upselling, product recomendation, bundle offers
-- New or infrequent (High R, Low F)
-  - Recently acquired, not yet loyal
-  - **Action:** Welcome journeys, low friction offers (free shipping/returns)
+- **High M, Low R:** Past big spenders, previously high-value but recently disengaged.
+- **High F, Low M:** Frequent but low spending, loyal but low value transactions.
+- **High R, Low F:** New or infrequent, recently acquired, not yet loyal.
   
 ## 5. Recomendations  
 **Customer Marketing**
