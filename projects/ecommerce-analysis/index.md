@@ -114,12 +114,12 @@ Based on weighted RFM scores:
 ## 5. Recomendations  
 
 ## 6. File References  
-- [Database Setup](./00_creating_db.sql)
-- [Overview & Demographics]([./10_data_overview_and_demographics.sql](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/10_data_overview_and_demographics.sql)
-- [Temporal Analysis](./20_time_series_analysis.sql)
-- [Cost & Category Trends](./30_costs_and_category_trends.sql)
-- [RFM Analysis](./50_RFM.ipynb)
-- [Data Exports](./40_exports_for_rfm_and_charts.sql)
+- [Database Setup](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/00_creating_db.sql)
+- [Overview & Demographics](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/10_data_overview_and_demographics.sql)
+- [Temporal Analysis](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/20_time_series_analysis.sql)
+- [Cost & Category Trends](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/30_costs_and_category_trends.sql)
+- [RFM Analysis](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/50_RFM.ipynb)
+- [Data Exports](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/40_exports_for_rfm_and_charts.sql)
 
 ## 7. Next Steps
 
