@@ -108,7 +108,7 @@ Based on weighted RFM scores:
   - Re-engage past big spenders with personalized "we miss you" and retention incentives.
   - Upsell frequent but low spending customers with product recomendations and bundle offers.
   - Nurture new or infrequent buyers with perks to minimize friction (free-shipping/returns) and incentives for repeat purchases.
-- ***Prioritize higher margin categories** (Beauty)**:**  in full-price placements, recomendation algorithms, and targetted marketing.
+- **Prioritize higher margin categories** (Beauty)**:**  in full-price placements, recomendation algorithms, and targetted marketing.
 - **Explore demographic targetting:** certain demographics are far more profitable (teens & 50s), either target them more heavily or find out how to increase margins with other groups.
 - **Monitor category-specific margin dynamics:** Electronics drive revenue but not profit, warrents a review of COGS, pricing strategy, or promotional depth.
   
