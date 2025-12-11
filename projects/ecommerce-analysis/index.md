@@ -39,6 +39,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
   - October had very similar unit sales (290 vs 297), but December was 20k more profitable. Could be worth looking into transaction data to see why the difference is so significant.
 - Q1 is the quietest month with just 15% of oreders and 18% of profits.
 - Q2 has the highest avg profit at $279 per order, 67% higher than Q4.
+  
 |Quarter|% of Orders|% of Profit|Avg Profit|
 |---|---|---|---|
 |Q1|15%|18%|$253|
