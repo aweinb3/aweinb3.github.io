@@ -1,20 +1,16 @@
 # ECOMMERCE CASE STUDY  
 
 ## 1. Project Overview  
+  
+This project analyzes two years of e-commerce transactions to understand customer behaviour, profitability drivers, and opportunities to grow lifetime value. Using PostgreSQL for all exploratory analysis and Python for RFM segmentation, I evaluated customer demographics, time-based purchasing patterns, category performance, and customer-level engagement.
 
-  This project analyzes two years of e-commerce transactions to understand customer behaviour, profitability drivers, and opportunities to grow lifetime value. Using PostgreSQL for all exploratory analysis and Python for RFM segmentation, I evaluated customer demographics, time-based purchasing patterns, 
-  
-**Methodology**
-- PG Admin & PostgreSQL for database creation and hosting
-- PostgreSQL for exploratory analysis
-- Pandas for RFM analysis
-- Matplotlib for charts
-  
+The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs**, and three product categories (Clothing, Electronics, Beauty). I built a PostgreSQL database for structured querying, performed cohort and profitability analysis in SQL, and exported customer-level metrics for RFM scoring in Python. The final output combines quantitative insight with practical, business-focused recomendations. 
+    
 **Assumptions**
 - Customer IDs are likely tied to orders from a specific address or area. Each contains multiple ages, genders, etc.
 - COGS not specified as per unit or per order, assumed per unit as margins are unreasonably high if not.
 - 0 orders between midnight and 6am across the entire dataset, likely a capture error.
-
+  
 ## 3. Dataset Snapshot  
 - 1,987 unique orders
 - Date range: Jan 1 2022 to Dec 31 2023
