@@ -62,6 +62,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
   
 ### 3.3 Category Performance  
 **Categories**
+  
 |Category|Orders|Revenue|Profit|Avg Margin|
 |---|---|---|---|---|
 |Clothing|698|$310.0k|$143.2k|46.2%|
@@ -91,6 +92,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 - Customers with 0 purchases in last 90 days were dropped from this part of the analysis.
   
 **Segmentation Results**
+  
 Based on weighted RFM scores:
 |Segment|Count|Description|
 |---|---|---|
