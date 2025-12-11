@@ -11,20 +11,13 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 - COGS not specified as per unit or per order, assumed per unit as margins are unreasonably high if not.
 - 0 orders between midnight and 6am across the entire dataset, likely a capture error.
   
-## 3. Dataset Snapshot  
-- 1,987 unique orders
-- Date range: Jan 1 2022 to Dec 31 2023
-- 155 unique customer IDs
-- Customer age range: 18-64
-- 3 product categories; Clothing, Electronics, Beauty
-- Avg profit per order: $212
+## 2. Executive Insights  
 
-## 4. Executive Insights  
+## 3. Exploratory Analysis
 
-## 5. Exploratory Analysis
-
-### 5.1 Customer Insights  
+### 3.1 Customer Insights  
 **Age Groups**
+- All customers are between the ages of 18 and 64
 - Most orders come from individuals in their 40s, making up 22% of total.
 - Customers in their 50s contribute the most to profit, making up 22% of total profit.
 - 60s were the least profitable by far, only contributing $150 per order.
@@ -36,7 +29,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 - However men are $35 more profitable per order ($195 vs $230), and thus contribute 53% of profit, despite making 49% of purchases.
   
   
-### 5.2 Temporal Patterns   
+### 3.2 Temporal Patterns   
 **Seasonal**
 - As expected, accross both years Q4 makes up 34% of annual profits and 43% of sales, likely due to increased holiday spending on electronics, beauty, and clothing categories.
   - However the lowest avg profit is also Q4, likely due to end of year sales (boxing day, black friday) lowering margins.
@@ -65,7 +58,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 - Despite this, average profit is much higher earlier in the day.
 - Highest average profit is at 2pm ($338)
   
-### 5.3 Category Performance  
+### 3.3 Category Performance  
 **Categories**
   
 |Category|Orders|Revenue|Profit|Avg Margin|
@@ -87,7 +80,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
   - Days cluster in October and November, likely tying to seasonal promoations, perhaps selling a significant amount of cost leaders to get people onto the website.
   - Margins also compress significantly during this time period.
   
-## 6. RFM Segmentation  
+## 4. RFM Segmentation  
   
 **Scoring Method**
 - Each customer was asigned a score from 1-5 for each of *Recency (R)*, *Frequency (F)*, and *Monetary (M)*.
@@ -118,9 +111,9 @@ Based on weighted RFM scores:
   - Recently acquired, not yet loyal
   - **Action:** Welcome journeys, low friction offers (free shipping/returns)
   
-## 7. Recomendations  
+## 5. Recomendations  
 
-## 8. File References  
+## 6. File References  
 - [Database Setup](./00_creating_db.sql)
 - [Overview & Demographics](./10_data_overview_and_demographics.sql)
 - [Temporal Analysis](./20_time_series_analysis.sql)
@@ -128,5 +121,5 @@ Based on weighted RFM scores:
 - [RFM Analysis](./50_RFM.ipynb)
 - [Data Exports](./40_exports_for_rfm_and_charts.sql)
 
-## 9. Next Steps
+## 7. Next Steps
 
