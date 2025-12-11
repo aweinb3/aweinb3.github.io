@@ -94,7 +94,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 **Segmentation Results**
   
 Based on weighted RFM scores:
-  
+
 |Segment|Count|Description|
 |---|---|---|
 |Best|27|Highly engaged and high spending customers|
