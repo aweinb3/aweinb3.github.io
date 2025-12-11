@@ -2,7 +2,9 @@
 
 ## 1. Project Overview  
 
-## 2. Methodology
+  This project analyzes two years of e-commerce transactions to understand customer behaviour, profitability drivers, and opportunities to grow lifetime value. Using PostgreSQL for all exploratory analysis and Python for RFM segmentation, I evaluated customer demographics, time-based purchasing patterns, 
+  
+**Methodology**
 - PG Admin & PostgreSQL for database creation and hosting
 - PostgreSQL for exploratory analysis
 - Pandas for RFM analysis
