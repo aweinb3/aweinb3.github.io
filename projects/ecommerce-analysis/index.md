@@ -12,6 +12,10 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 - 0 orders between midnight and 6am across the entire dataset, likely a capture error.
   
 ## 2. Executive Insights  
+- **Profitability is broad-based across categories.** Clothing, electronics, and beauty each generate ~$137-143k in profit despite differing sales volumes, indicating a balanced assortment and no over-reliance on a single category.
+- **High order volume does not guarantee value.** Only 3 of the top 15 days by profit overlap with the top 15 days by volume. Value is driven by mix and margin, not transaction count.
+- **Q4 drives revenue but compressess margins.** It accounts for 43% of orders but delivers the lowest average profit per order, reflecting heavy promotional activity in the market over holiday seasons.
+- **Customer profitability is highly uneven.** Teens and customers in their 50s deliver highest average profit per order, while customers in their 60s significantly underperform.
 
 ## 3. Exploratory Analysis
 
@@ -79,6 +83,7 @@ The dataset contains **1,987 orders** (after removing NULLs), **155 customer IDs
 - This is something to review more heavily, and a big operational signal.
   - Days cluster in October and November, likely tying to seasonal promoations, perhaps selling a significant amount of cost leaders to get people onto the website.
   - Margins also compress significantly during this time period.
+
   
 ## 4. RFM Segmentation  
   
@@ -112,7 +117,7 @@ Based on weighted RFM scores:
   - **Action:** Welcome journeys, low friction offers (free shipping/returns)
   
 ## 5. Recomendations  
-
+  
 ## 6. File References 
 - [Original Data Source](https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv)
 - [Database Setup](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/00_creating_db.sql)
