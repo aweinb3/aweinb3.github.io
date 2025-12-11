@@ -113,7 +113,8 @@ Based on weighted RFM scores:
   
 ## 5. Recomendations  
 
-## 6. File References  
+## 6. File References 
+- [Original Data Source](https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv)
 - [Database Setup](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/00_creating_db.sql)
 - [Overview & Demographics](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/10_data_overview_and_demographics.sql)
 - [Temporal Analysis](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/20_time_series_analysis.sql)
