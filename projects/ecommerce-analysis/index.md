@@ -115,7 +115,7 @@ Based on weighted RFM scores:
 
 ## 6. File References  
 - [Database Setup](./00_creating_db.sql)
-- [Overview & Demographics](./10_data_overview_and_demographics.sql)
+- [Overview & Demographics]([./10_data_overview_and_demographics.sql](https://github.com/aweinb3/aweinb3.github.io/blob/main/projects/ecommerce-analysis/10_data_overview_and_demographics.sql)
 - [Temporal Analysis](./20_time_series_analysis.sql)
 - [Cost & Category Trends](./30_costs_and_category_trends.sql)
 - [RFM Analysis](./50_RFM.ipynb)
