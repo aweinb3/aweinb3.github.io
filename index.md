@@ -9,5 +9,5 @@ Analytics professional focused on marketing and strategy
 
 ### Featured Projects:
 - [E-commerce Case Study](./projects/ecommerce-analysis/index.md) *- SQL, Python*
-- [Extended Spotify Wrapped]([https://spotifywrappedcomplete.streamlit.app](https://github.com/aweinb3/spotify_wrapped_complete/index.md)) *- Python (pandas, streamlit, plotly)*
+- [Extended Spotify Wrapped](./indexes/spotify-wrapped-complete.md) *- Python (pandas, streamlit, plotly)*
 - Urban Mobility Demand Analysis *- SQL, Python*
