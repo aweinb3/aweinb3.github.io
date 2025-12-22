@@ -8,6 +8,6 @@ Analytics professional focused on marketing and strategy
 - Additional exposure supporting early stage startups across healthtech, media, and lab-grown diamond sectors.
 
 ### Featured Projects:
-- [E-commerce Case Study](./projects/ecommerce-analysis/index.md) *- SQL, Python*
+- [E-commerce Case Study](./indexes/ecommerce-case-study.md) *- SQL, Python*
 - [Extended Spotify Wrapped](./indexes/spotify-wrapped-complete.md) *- Python (pandas, streamlit, plotly)*
 - Urban Mobility Demand Analysis *- SQL, Python*
