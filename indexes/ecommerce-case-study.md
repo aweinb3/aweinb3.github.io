@@ -1,7 +1,7 @@
 # ECOMMERCE CASE STUDY
     
-  Project Repo: [https://github.com/aweinb3/ecommerce-case-study](https://github.com/aweinb3/ecommerce-case-study)
-
+Project Repo: [https://github.com/aweinb3/ecommerce-case-study](https://github.com/aweinb3/ecommerce-case-study)
+  
 ## 1. Project Overview
 This project analyzes two years of e-commerce transactions to understand customer behaviour, profitability drivers, and opportunities to grow lifetime value. Using PostgreSQL for all exploratory analysis and Python for RFM segmentation, I evaluated customer demographics, time-based purchasing patterns, category performance, and customer-level engagement.
   
@@ -120,12 +120,8 @@ Based on weighted RFM scores:
   
 ## 6. File References 
 - [Original Data Source](https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv)
-- [Database Setup](https://github.com/aweinb3/ecommerce-case-study/blob/main/00_creating_db.sql)
-- [Overview & Demographics](https://github.com/aweinb3/ecommerce-case-study/blob/main/10_data_overview_and_demographics.sql)
-- [Temporal Analysis](https://github.com/aweinb3/ecommerce-case-study/blob/main/20_temporal_analysis.sql)
-- [Cost & Category Trends](https://github.com/aweinb3/ecommerce-case-study/blob/main/30_costs_and_category_trends.sql)
-- [RFM Analysis](https://github.com/aweinb3/ecommerce-case-study/blob/main/50_RFM.ipynb)
-- [Data Exports](https://github.com/aweinb3/ecommerce-case-study/blob/main/40_exports_for_rfm_and_charts.sql)
+- [Code files](https://github.com/aweinb3/ecommerce-case-study/tree/main/code)
+- [Data files](https://github.com/aweinb3/ecommerce-case-study/tree/main/data)
   
 ## 7. Next Steps
 - **Explore customer_ids:** Dive deeper into each cutomer_id to find highest spenders and most valuable households.
