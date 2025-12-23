@@ -35,8 +35,11 @@ I ended up learning much more from this project than initially intended. Beyond 
 This is intentionally an MVP, but I hope to expand it in the future. I'm already thinking about.
 - Connecting to more insights via Spotify's API (genres, artist popularity)
 - More behavioral insights (already looking into skip rates, seasonal trends, etc.)
-- Building a more enjoyable UI in framer.
+- Building a more interactive UI.
 
 ## 5. Photos
-![annual](./annual.png)
-![all time trends](./all-time.png)
+
+<div style="display: flex; gap: 10px;">
+  <img src="./annual.png" width="48%">
+  <img src="./all-time.png" width="48%">
+</div>
