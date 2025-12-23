@@ -38,5 +38,5 @@ This is intentionally an MVP, but I hope to expand it in the future. I'm already
 - Building a more enjoyable UI in framer.
 
 ## 5. Photos
-[annula](indexes/spotify-wrapped-complete/anual.png)
-[all time trends](indexes/spotify-wrapped-complete/all-time.png)
+![annual](./annual.png)
+![all time trends](./all-time.png)
