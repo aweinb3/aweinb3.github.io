@@ -36,3 +36,7 @@ This is intentionally an MVP, but I hope to expand it in the future. I'm already
 - Connecting to more insights via Spotify's API (genres, artist popularity)
 - More behavioral insights (already looking into skip rates, seasonal trends, etc.)
 - Building a more enjoyable UI in framer.
+
+## 5. Photos
+[annula](indexes/spotify-wrapped-complete/anual.png)
+[all time trends](indexes/spotify-wrapped-complete/all-time.png)
