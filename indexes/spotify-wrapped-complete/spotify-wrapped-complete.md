@@ -15,7 +15,7 @@ Spotify actually gives you access to your extended streaming history via your [a
 ## 2. Process  
 When wrapped came out this year, a lot of jokes circulated about how the internet goes crazy over what's essentially just some simple SQL queries. That narrative pushed me to see how much of Wrapped I could recreate using my raw data.  
 
-I started by just reopening my Wrapped and taking note of every metric that was offered, and then worked on rebuilding those insights in a Jupyter notebook. Within a couple hours I was able to reproduce most of the core outputs: top tracks, artists, listening time, grouped by year, as well as all time cumulative stats.  
+I started by just reopening my Wrapped and taking note of every metric that was offered, and then worked on rebuilding those insights in a Jupyter notebook. Within a couple hours I was able to reproduce most of the core outputs: top tracks, artists, albums, and listening time. Grouped by year, as well as all time cumulative stats.  
 
 To make the project usable by others, I added a lightweight frontend UI using streamlit. With some assistance from Claude, I was able to develop an interactive interface that simplifies use and avoids the need to install anything locally or write any code yourself.
 
@@ -29,15 +29,15 @@ To make the project usable by others, I added a lightweight frontend UI using st
 I ended up learning much more from this project than initially intended. Beyond an exercise to reinforce my pandas skills, and an excuse to reminisce on my favourite albums through high school, it forced me to think about:  
 - Data ingestion from raw user files
 - Cleaning messy real-world data
-- Translating analysis into a usable interface
+- Translating analysis into a usable interface (essential when working with less technical individuals/teams)
 - UX decisions around what insights actually matter
 
-This is intentionally an MVP, but I hope to expand it in the future. I'm already thinking about.
-- Connecting to more insights via Spotify's API (genres, artist popularity)
-- More behavioral insights (already looking into skip rates, track/artist clustering, etc.)
-- Building a more interactive UI.
+This is intentionally an MVP, but I hope to expand it in the future. I'm already thinking about:
+- Connecting to more insights via Spotify's API (genres, artist popularity, song characteristics)
+- More behavioral insights (skip rates, track/artist clustering)
+- Building a more interactive UI
 
-## 5. Photos
+## 5. Screenshots
 
 <div style="display: flex; gap: 10px;">
   <img src="./annual.png" width="48%">
