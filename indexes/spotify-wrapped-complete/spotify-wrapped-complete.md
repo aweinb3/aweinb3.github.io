@@ -1,4 +1,4 @@
-# Spotify Wrapped Complete  
+# Spotify Streaming Insights  
 
 **Live App Link:** [https://spotifywrappedcomplete.streamlit.app](https://spotifywrappedcomplete.streamlit.app)  
 **Project Repo:** [https://github.com/aweinb3/spotify_wrapped_complete](https://github.com/aweinb3/spotify_wrapped_complete)
