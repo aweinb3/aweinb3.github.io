@@ -1,3 +1,9 @@
+---
+redirect from:
+  - /indexes/spotify-wrapped-complete/spotify-wrapped-complete
+  - /indexes/spotify-wrapped-complete/spotify-wrapped-complete.html
+---
+
 # Spotify Streaming Insights  
 
 **Live App Link:** [https://spotifywrappedcomplete.streamlit.app](https://spotifywrappedcomplete.streamlit.app)  
