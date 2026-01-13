@@ -9,5 +9,5 @@ Analytics professional focused on marketing and strategy
 
 ### Featured Projects:
 - [E-commerce Case Study](./projects/ecommerce-case-study.md) *- SQL, Python*
-- [Spotify Wrapped Plus](./projects/spotify-wrapped-complete/) *- Python (pandas, streamlit, plotly)*
+- [Spotify Wrapped Plus](./projects/wrappedplus/) *- Python (pandas, streamlit, plotly)*
 - Uber Demand Analysis *- SQL, Python*
