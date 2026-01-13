@@ -4,7 +4,7 @@ redirect_from:
   - /indexes/spotify-wrapped-complete/spotify-wrapped-complete.html
 ---
 
-# Spotify Streaming Insights  
+# Spotify Wrapped Plus  
 
 **Live App Link:** [https://wrappedplus.streamlit.app](https://wrappedplus.streamlit.app)  
 **Project Repo:** [https://github.com/aweinb3/spotify_wrapped_complete](https://github.com/aweinb3/spotify_wrapped_complete)
