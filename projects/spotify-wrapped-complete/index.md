@@ -1,5 +1,5 @@
 ---
-redirect from:
+redirect_from:
   - /indexes/spotify-wrapped-complete/spotify-wrapped-complete
   - /indexes/spotify-wrapped-complete/spotify-wrapped-complete.html
 ---
