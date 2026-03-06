@@ -10,4 +10,5 @@ Analytics professional focused on marketing and strategy
 ### Featured Projects:
 - [E-commerce Case Study](./projects/ecommerce-case-study.md) *- SQL, Python*
 - [Spotify Wrapped Plus](./projects/wrappedplus/) *- Python (pandas, streamlit, plotly)*
+- [First.fm](./projects/firstfm.md) *- Claude Code for development, PostgreSQL for DB, Railway & Vercel for hosting*
 - Uber Demand Analysis *- SQL, Python*
